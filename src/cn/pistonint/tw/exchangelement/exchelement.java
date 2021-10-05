@@ -5,7 +5,7 @@ import cn.pistonint.tw.demo04.printArr.calculator;
 
 public class exchelement {
     public static void main(String[] args) {
-        int[] arr = {10, 20, 30, 40, 50, 60};
+        int[] arr = {10, 20, 30, 40, 50, 60, 70, 80};
         printArr.printArray(arr);
         System.out.println("=====================");
         for (int min = 0, max = arr.length - 1; min < max; min++, max--) {
